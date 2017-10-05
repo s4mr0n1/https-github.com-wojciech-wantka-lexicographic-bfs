@@ -1,0 +1,10 @@
+#include "ArrayOfVertex.h"
+#include "ArrayOfVertex2D.h"
+
+ArrayOfVertex2D::ArrayOfVertex2D(int len) : length(len) { a = new ArrayOfVertex* [len]; }
+
+ArrayOfVertex2D::~ArrayOfVertex2D() {
+    for (int i = 0; i < length; i++) {
+        delete [] a[i]->v;
+    }
+}
