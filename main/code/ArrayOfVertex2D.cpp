@@ -1,5 +1,6 @@
-#include "ArrayOfVertex.h"
 #include "ArrayOfVertex2D.h"
+
+#include "ArrayOfVertex.h"
 
 ArrayOfVertex2D::ArrayOfVertex2D(int len) : length(len) { a = new ArrayOfVertex* [len]; }
 

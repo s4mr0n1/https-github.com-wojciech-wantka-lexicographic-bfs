@@ -1,6 +1,7 @@
+#include "StackOfVertex.h"
+
 #include <cstdio>
 
-#include "StackOfVertex.h"
 #include "Vertex.h"
 
 StackOfVertex::StackOfVertex() : ptrVertex(NULL), next(NULL) {

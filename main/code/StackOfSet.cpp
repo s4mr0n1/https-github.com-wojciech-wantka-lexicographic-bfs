@@ -1,7 +1,8 @@
+#include "StackOfSet.h"
+
 #include <cstdio>
 
 #include "Set.h"
-#include "StackOfSet.h"
 
 StackOfSet::StackOfSet() : ptrSet(NULL), next(NULL) {
 }

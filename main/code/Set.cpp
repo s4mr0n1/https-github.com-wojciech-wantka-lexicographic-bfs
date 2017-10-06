@@ -1,6 +1,6 @@
-#include <cstdio>
-
 #include "Set.h"
+
+#include <cstdio>
 
 Set::Set(Set* old) : firstVertex(NULL), lastVertex(NULL), prevSet(old->prevSet), nextSet(old), newSet(NULL), isDivided(false) {
     if (old->prevSet) {
